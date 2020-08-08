@@ -1,7 +1,17 @@
 ![Screenshot](BenettonIO.png)
 
-# Tittle
- 
+# Context
+## What is Census?
+
+The United Nations defines a population census as the total process of collecting, compiling, and publishing demographic, economic, and social data pertaining to a specific time to all persons in a country or delimited part of a country
+
+
+# Objective
+
+Your task is to build machine learning models to predict the income level (target variable) of the related collaborators in the evaluation set, being 0 a collaborator who has an income less than 50,000 USD annually, and 1 a collaborator who has an income equal to or greater than 50,000 USD annually.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 Project Organization
 ------------
@@ -54,30 +64,3 @@ Project Organization
 
 --------
 
-## Getting started:
-
-One should be up and running as follows:
-
-    make create_environment
-    source activate hackmakers_predictive_algorithm
-    make requirements
-
-If you've setup s3, one can sync to and from your bucket as follows:
-
-    make sync_data_from_s3
-    make sync_data_to_s3
-
-Running the data preparation should then be as follows:
-
-    make data
-
-### Shortcut creating the environment using conda 
-To get started in this project, you first need to setup an environment:
-
-    conda env create -f environment.yml
-
-### Installing Python module as egg
-------------
-If you want to reuse the code developed in other projects, you can install an egg directly from your checkout:
-
-    pip install -e .
