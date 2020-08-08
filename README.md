@@ -5,6 +5,9 @@
 
 The United Nations defines a population census as the total process of collecting, compiling, and publishing demographic, economic, and social data pertaining to a specific time to all persons in a country or delimited part of a country
 
+![Screenshot](CensusUS.png)
+
+There are many variables to consider when doing a population census. This dataset contains the grouped and collected census data from the 1994 and 1995 population surveys conducted by the US Census Bureau.
 
 # Objective
 
