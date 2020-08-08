@@ -1,7 +1,20 @@
 ![Screenshot](BenettonIO.png)
 
-# Tittle
- 
+# Context
+## What is Census?
+
+The United Nations defines a population census as the total process of collecting, compiling, and publishing demographic, economic, and social data pertaining to a specific time to all persons in a country or delimited part of a country
+
+![Screenshot](CensusUS.png)
+
+There are many variables to consider when doing a population census. This dataset contains the grouped and collected census data from the 1994 and 1995 population surveys conducted by the US Census Bureau.
+
+# Objective
+
+Your task is to build machine learning models to predict the income level (target variable) of the related collaborators in the evaluation set, being 0 a collaborator who has an income less than 50,000 USD annually, and 1 a collaborator who has an income equal to or greater than 50,000 USD annually.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 Project Organization
 ------------
@@ -9,11 +22,6 @@ Project Organization
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
@@ -59,30 +67,3 @@ Project Organization
 
 --------
 
-## Getting started:
-
-One should be up and running as follows:
-
-    make create_environment
-    source activate hackmakers_predictive_algorithm
-    make requirements
-
-If you've setup s3, one can sync to and from your bucket as follows:
-
-    make sync_data_from_s3
-    make sync_data_to_s3
-
-Running the data preparation should then be as follows:
-
-    make data
-
-### Shortcut creating the environment using conda 
-To get started in this project, you first need to setup an environment:
-
-    conda env create -f environment.yml
-
-### Installing Python module as egg
-------------
-If you want to reuse the code developed in other projects, you can install an egg directly from your checkout:
-
-    pip install -e .
